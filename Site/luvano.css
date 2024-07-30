@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --cinza: #1B1C1B;
+}
+
+body {
+    max-width: 1920px;
+
+    display: flex;
+    
+    justify-content: center;
+    margin: auto;
+}
+
+nav {
+    height: 40px;
+    width: 100%;
+
+    background-color: var(--cinza);
+    color: white;
+}
