@@ -8,6 +8,41 @@
     <link rel="stylesheet" href="luvano.css">
 </head>
 <body>
-    <nav>1</nav>
+    <nav> 
+        <ul id="ul-1">
+            <li><a href="#"><img src="img/envelope.png" alt="">Entre em contato</a></li>
+        </ul>
+        <ul id="ul-2">
+            <li><a href="https://www.linkedin.com/company/luvano-ind%C3%BAstria-de-vassoura-e-escovas-ltda/?originalSubdomain=br"><img src="img/linkedin.png" alt=""></a></li>
+            <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="img/whatsapp.png" alt=""></a></li>
+        </ul>
+    </nav>
+    <section id="banner">
+        <div id="banner-parte-1">
+            <img src="img/logo-provisório.jpeg" alt="">
+            <h2>Bem vindo à</h2>
+            <h1>Luvano Indústria de Escovas e Vassouras</h1>
+            <h3>As melhores escovas industriais do mercado</h3>
+            <div id="btn-banner-1">
+                <button>Nossos produtos</button>
+                <button>Sobre nós</button>
+            </div>
+        </div>
+        <div id="banner-parte-2">
+            <h2>Solicite uma cotação rápida</h2>
+            <form id="email-form" action="submit_form.php" method="post">
+
+                <input type="email" class="campo-form" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                <input type="name" class="campo-form" id="name" name="name" placeholder="Nome completo" required>
+                <input type="tel" class="campo-form" id="tel" name="tel" placeholder="Telefone contato" required>
+                <input type="text" class="campo-form" id="text" name="text" placeholder="Solicito cotação de..." required>
+
+                <input id="btn-envia" type="submit" value="Enviar">
+
+            </form>
+        </div>
+    </section>
 </body>
 </html>
