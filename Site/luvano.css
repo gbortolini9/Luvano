@@ -197,3 +197,11 @@ ul li img {
     border: none;
     margin: 5px 0;
 }
+
+#banner-bottom {
+    height: 100px;
+    background-color: var(--laranja);
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
