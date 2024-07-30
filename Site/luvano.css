@@ -198,10 +198,39 @@ ul li img {
     margin: 5px 0;
 }
 
+#parte-2 {
+    background-image: url(img/luvano_back.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
 #banner-bottom {
     height: 100px;
-    background-color: var(--laranja);
+    background-color: #ee7716c2;
     display: flex;
     flex-direction: row;
     gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.banner-bottom-topico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner-bottom-topico img {
+    width: 50px;
+}
+
+.banner-bottom-topico h4 {
+    font-size: 20px;
+}
+
+.banner-bottom-topico h5 {
+    font-size: 25px;
+}
+
