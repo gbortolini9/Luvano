@@ -203,7 +203,6 @@ ul li img {
     background-image: url(img/luvano_back.jpg);
     background-attachment: fixed;
     background-size: cover;
-    height: 600px;
 }
 
 #banner-bottom {
@@ -251,7 +250,7 @@ ul li img {
 #produtos {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin: 100px 0;
     justify-content: center;
     align-items: center;
     gap: 50px;
