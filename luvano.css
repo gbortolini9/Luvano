@@ -69,6 +69,7 @@ ul li img {
     url('img/background_3.jpg');
     background-size: cover;
     background-position: right;
+    background-attachment: fixed;
     height: 500px;
     width: 100%;
     padding: 20px 50px;
@@ -200,6 +201,7 @@ ul li img {
 
 #parte-2 {
     background-image: url(img/luvano_back.jpg);
+    background-attachment: fixed;
     background-size: cover;
     height: 600px;
 }
@@ -234,3 +236,78 @@ ul li img {
     font-size: 25px;
 }
 
+#whats-flutuante {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    position: fixed;
+    cursor: pointer;
+}
+
+#whats-flutuante img {
+    width: 100px;
+}
+
+#produtos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0 100px;
+}
+
+#produtos-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--backgroud-cinza);
+}
+
+#produtos-txt h2 {
+    color: #383838;
+    text-transform: uppercase;
+    font-size: 30px;
+    border-bottom: 1px solid var(--laranja);
+}
+
+#produtos-txt p {
+    font-size: 20px;
+}
+
+#prod-btn {
+    width: 150px;
+    padding: 7px 0;
+    background-color: #777777;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+#prod-btn:hover {
+    background-color: var(--laranja);
+}
+
+#prods {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.prod {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;    
+    background-color: #77777762;
+    border: 1px solid #ffffff00;
+}
+
+.prod:hover {
+    border-color: var(--laranja);
+}
