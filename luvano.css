@@ -297,6 +297,7 @@ ul li img {
     display: flex;
     justify-content: center;
     font-size: 40px;
+    color: var(--cinza);
 }
 
 #duvidas-2 {
@@ -306,6 +307,7 @@ ul li img {
     font-weight: lighter;
     margin-top: 20px;
     margin-bottom: 40px;
+    color: var(--cinza);
 }
 
 #contato {
@@ -329,6 +331,15 @@ ul li img {
 #localizacao h2 {
     margin-bottom: 50px;
     border-bottom: 1px solid var(--laranja);
+}
+
+#localizacao-a {
+    margin-top: 20px;
+    color: white;
+}
+
+#localizacao-a:hover {
+    color: var(--laranja);
 }
 
 #form-contato {
