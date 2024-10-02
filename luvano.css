@@ -147,27 +147,6 @@ ul li img {
     background-color: var(--laranja);
 }
 
-#banner-parte-2 {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    background-color: #1b1c1bc0;
-    border-radius: 2px;
-    padding: 20px;
-}
-
-#banner-parte-2 h2 {
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
-#email-form {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    width: 400px;
-}
-
 #btn-envia {
     width: 100px;
     padding: 7px 0;
@@ -182,21 +161,6 @@ ul li img {
 
 #btn-envia:hover {
     background-color: var(--laranja);
-}
-
-.campo-form {
-    padding: 8px;
-    color: white;
-    background-color: #1B1C1B;
-}
-
-#text {
-    height: 80px;
-}
-
-#email-form input {
-    border: none;
-    margin: 5px 0;
 }
 
 #parte-2 {
@@ -313,6 +277,7 @@ ul li img {
 
 #empresa {
     margin-top: 200px;
+    margin-bottom: 200px ;
 }
 
 #empresa-img {
@@ -326,4 +291,74 @@ ul li img {
 
 #historia-txt {
     width: 40%;
+}
+
+#duvidas {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#duvidas-2 {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 30px;
+    background-color: #1B1C1B;
+}
+
+#localizacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+}
+
+#localizacao h2 {
+    margin-bottom: 50px;
+    border-bottom: 1px solid var(--laranja);
+}
+
+#form-contato {
+    width: 50%;
+    height: 500px;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-contato h2 {
+    margin-bottom: 20px;
+}
+
+#email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-form {
+    width: 180%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.815);
+}
+
+#text {
+    height: 80px;
 }

@@ -74,9 +74,29 @@
             </div>
             <div class="produtos-txt" id="historia-txt">
                 <h2>Nossa história</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, pariatur libero? Et, nemo? Optio quam aliquam repellat commodi quas quidem saepe aliquid voluptatum culpa ea doloribus dolorem, eos, accusamus dignissimos..</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, pariatur libero? Et, nemo? Optio quam aliquam repellat commodi quas quidem saepe aliquid voluptatum culpa ea doloribus dolorem, eos, accusamus dignissimos.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis tenetur exercitationem ducimus rem voluptates doloremque, magni nihil corrupti veritatis eligendi autem quibusdam explicabo aliquid libero. Alias dolorem sint qui expedita.</p>
             </div>
         </section>
+        <h1 id="duvidas">Possui alguma dúvida?</h1>
+        <h2 id="duvidas-2">Nos envie uma mensagem abaixo.</h2>
     </section>
+    <div id="contato">
+        <div id="localizacao">
+            <h2>Localização</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.2581570769744!2d-51.1664229!3d-29.8568279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95196f70df84e87b%3A0x652dddb9b35359d4!2sR.%20da%20Legalidade%2C%20124%20-%20Liberdade%2C%20Esteio%20-%20RS%2C%2093265-390!5e0!3m2!1spt-BR!2sbr!4v1727878057642!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="form-contato">
+            <h2>Entre em contato</h2>
+            <form id="email-form" action="submit_form.php" method="post">
+
+                <input type="email" class="campo-form" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                <input type="name" class="campo-form" id="name" name="name" placeholder="Nome completo" required>
+                <input type="tel" class="campo-form" id="tel" name="tel" placeholder="Telefone contato" required>
+                <input type="text" class="campo-form" id="text" name="text" placeholder="Mensagem..." required>
+
+                <input id="btn-envia" type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
 </body>
 </html>
