@@ -247,7 +247,7 @@ ul li img {
     width: 100px;
 }
 
-#produtos {
+.produtos {
     display: flex;
     flex-direction: row;
     margin: 100px 0;
@@ -257,7 +257,7 @@ ul li img {
     padding: 0 100px;
 }
 
-#produtos-txt {
+.produtos-txt {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -265,14 +265,14 @@ ul li img {
     color: var(--backgroud-cinza);
 }
 
-#produtos-txt h2 {
+.produtos-txt h2 {
     color: #383838;
     text-transform: uppercase;
     font-size: 30px;
     border-bottom: 1px solid var(--laranja);
 }
 
-#produtos-txt p {
+.produtos-txt p {
     font-size: 20px;
 }
 
@@ -309,4 +309,21 @@ ul li img {
 
 .prod:hover {
     border-color: var(--laranja);
+}
+
+#empresa {
+    margin-top: 200px;
+}
+
+#empresa-img {
+    background-image: url(img/background_2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+    border-radius: 50px 15px 50px 15px;
+}
+
+#historia-txt {
+    width: 40%;
 }
