@@ -334,7 +334,8 @@ ul li img {
 #form-contato {
     width: 50%;
     height: 500px;
-    background-image: url(img/background.jpg);
+    background: linear-gradient( to left, #ffffff00, var(--cinza)), 
+    url('img/background.jpg');
     background-size: cover;
     background-attachment: fixed;
     display: flex;
