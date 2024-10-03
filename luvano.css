@@ -169,7 +169,7 @@ ul li img {
 }
 
 #banner-bottom {
-    height: 100px;
+    height: 20px;
     background-color: rgb(254 122 0);
     display: flex;
     flex-direction: row;
