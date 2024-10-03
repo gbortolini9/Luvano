@@ -68,7 +68,7 @@ ul li img {
     background: linear-gradient( to left, #ffffff00, var(--cinza)), 
     url('img/background_3.jpg');
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-attachment: fixed;
     height: 500px;
     width: 100%;
