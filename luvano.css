@@ -438,3 +438,24 @@ footer {
 #menu-footer a:hover {
     color: var(--laranja);
 }
+
+.registro {
+    color: var(--backgroud-cinza);
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .bortoac-logo {
+    width: 30px;
+    margin-left: 5px;
+  }
+  
+  .logo-bortoac {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+  }
+  
