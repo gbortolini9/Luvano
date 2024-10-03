@@ -65,10 +65,9 @@ ul li img {
 }
 
 #banner {
-    background: linear-gradient( to left, #ffffff00, var(--cinza)), 
-    url('img/background_3.jpg');
+    background-image: url(img/luvano_banner1.png);
     background-size: cover;
-    background-position: right;
+    background-position: top;
     background-attachment: fixed;
     height: 500px;
     width: 100%;
