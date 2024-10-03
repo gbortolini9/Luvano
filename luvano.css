@@ -13,7 +13,7 @@
 :root {
     --cinza: #1B1C1B;
     --backgroud-cinza: #383838;
-    --laranja: rgb(254 122 0);
+    --laranja: #EE7916;
 }
 
 body {
@@ -65,7 +65,8 @@ ul li img {
 }
 
 #banner {
-    background-image: url(img/banner-042.jpg);
+    background: linear-gradient( to left, #ffffff00, var(--cinza)), 
+    url('img/background_3.jpg');
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -169,8 +170,8 @@ ul li img {
 }
 
 #banner-bottom {
-    height: 40px;
-    background-color: rgb(254 122 0);
+    height: 100px;
+    background-color: #ee7716a6;
     display: flex;
     flex-direction: row;
     gap: 50px;
