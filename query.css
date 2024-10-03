@@ -1,4 +1,16 @@
+@media (max-width: 1129px) {
+    #produtos-principal {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+}
+
 @media (max-width: 888px) {
+
+    #prods {
+        flex-wrap: wrap;
+    }
+
     #contato {
         flex-wrap: wrap-reverse;
     }
